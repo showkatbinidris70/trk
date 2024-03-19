@@ -1,29 +1,50 @@
-[{
+[
+    {
         "id": 1,
-        "name": "HTML nd CSS: Design and Build Websites",
-        "author": "Jon Duckett",
-        "imageUrl": "https://m.media-amazon.com/images/I/41WznOEKmAL._SX396_BO1,204,203,200_.jpg",
-        "price": "18"
+        "name": "Chaldal Premium Rui Fish Headless Curry Cut and Deshi Roshun (Combo)",
+        "weight": "500g",
+        "imageUrl": "https://chaldn.com/_mpimage/chaldal-premium-rui-fish-headless-curry-cut-and-deshi-roshun-combo-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D151603&q=best&v=1&m=400&webp=1",
+        "regularPrice": "485",
+        "offerPrice": "369"
     },
     {
         "id": 2,
-        "name": "JavaScript and jQuery: Interactive Front-End Web Development",
-        "author": "Jon Duckett",
-        "imageUrl": "https://m.media-amazon.com/images/I/41y31M-zcgL._SX400_BO1,204,203,200_.jpg",
-        "price": "23"
+        "name": "Deshi Peyaj (Local Onion) ± 50 gm",
+        "weight": "1kg",
+        "imageUrl": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1&m=400&webp=1",
+        "regularPrice": "80",
+        "offerPrice": "69"
     },
     {
         "id": 3,
-        "name": "Beginning ReactJS Foundations Building User Interfaces with ReactJS: An Approachable Guide",
-        "author": "Chris Minnick",
-        "imageUrl": "https://m.media-amazon.com/images/I/41iPVS-Ye2L._SX397_BO1,204,203,200_.jpg",
-        "price": "32"
+        "name": "Potato Regular (± 50 gm)",
+        "weight": "1kg",
+        "imageUrl": "https://chaldn.com/_mpimage/potato-regular-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D81244&q=best&v=1&m=400&webp=1",
+        "regularPrice": "45",
+        "offerPrice": "39"
     },
     {
         "id": 4,
-        "name": "React Key Concepts: Consolidate your knowledge of React's core features",
-        "author": "Maximilian Schwarzmüller",
-        "imageUrl": "https://m.media-amazon.com/images/I/41rgivhpOaL._SX404_BO1,204,203,200_.jpg",
-        "price": "45"
+        "name": "Red Tomato ± 25 gm",
+        "weight": "500g",
+        "imageUrl": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400&webp=1",
+        "regularPrice": "40",
+        "offerPrice": "35"
+    },
+    {
+        "id": 5,
+        "name": "Roshun (Garlic Imported) ± 25 gm",
+        "weight": "1kg",
+        "imageUrl": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1&m=400&webp=1",
+        "regularPrice": "119",
+        "offerPrice": "119"
+    },
+    {
+        "id": 6,
+        "name": "Lal Peyaj (Onion Red Imported) ± 50 gm",
+        "weight": "1kg",
+        "imageUrl": "https://chaldn.com/_mpimage/lal-peyaj-onion-red-imported-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69767&q=best&v=1&m=400&webp=1",
+        "regularPrice": "119",
+        "offerPrice": "119"
     }
 ]

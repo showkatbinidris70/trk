@@ -36,9 +36,38 @@ const cartSlice = createSlice({
         }
       }
     },
+    // ----------------------------------------------------
+
+    // remove perticular iteams
+    removeToCart: (state, action) => {
+      const data = state.carts.filter((ele) => ele.id !== action.payload);
+      state.carts = data;
+    },
+
+    // remove single iteams
+    removeSingleIteams: (state, action) => {
+      const IteamIndex_dec = state.carts.findIndex(
+        (iteam) => iteam.id === action.payload.id
+      );
+
+      if (state.carts[IteamIndex_dec].qnty >= 1) {
+        state.carts[IteamIndex_dec].qnty -= 1;
+      }
+    },
+
+    // clear cart
+    emptycartIteam: (state, action) => {
+      state.carts = [];
+    },
   },
 });
 
-export const { addToCart, decrementFromCart } = cartSlice.actions;
+export const {
+  addToCart,
+  decrementFromCart,
+  removeToCart,
+  removeSingleIteams,
+  emptycartIteam,
+} = cartSlice.actions;
 
 export default cartSlice.reducer;
