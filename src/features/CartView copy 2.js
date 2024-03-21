@@ -124,11 +124,16 @@ export default function CartView() {
                               <div className="position-absolute top-50 start-50 translate-middle">
                                 <div
                                   className="d-flex justify-contenter-center align-items-center text-white fs-5"
-                                  style={{ marginLeft: "30%" }}
+                                  style={{ marginLeft: "25%" }}
                                 >
                                   <TbCurrencyTaka
                                     style={{ marginRight: "-0.3rem" }}
                                   />{" "}
+                                  {carts.map((data) => {
+                                    return (
+                                      <div>{data.offerPrice * data.qnty}</div>
+                                    );
+                                  })}
                                 </div>
                                 <div className="d-flex justify-content-center py-1">
                                   <div className="d-flex justify-content-between w-100 rounded align-items-center">
@@ -140,13 +145,16 @@ export default function CartView() {
                                         <CiCircleMinus className="fs-1" />
                                       </button>
                                     </div>
-                                    <div className="fs-2 px-3 text-white">
-                                      {
-                                        carts.find(
-                                          (cart_data) =>
-                                            cart_data?.id === data?.id
-                                        )?.qnty
-                                      }
+                                    <div className="">
+                                      <div>
+                                        {carts.map((data, index) => {
+                                          return (
+                                            <div className="text-warning fs-1">
+                                              {data.qnty}
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
                                     </div>
                                     <div>
                                       <button
@@ -205,12 +213,14 @@ export default function CartView() {
                               </button>
                             </div>
                             <div className="d-flex align-items-center">
-                              <div className="text-white">
-                                {
-                                  carts.find(
-                                    (cart_data) => cart_data?.id === data?.id
-                                  )?.qnty
-                                }
+                              <div>
+                                {carts.map((data, index) => {
+                                  return (
+                                    <div className="text-white">
+                                      {data.qnty}
+                                    </div>
+                                  );
+                                })}
                               </div>
                               <button
                                 className="border-0 bg-transparent text-white"
