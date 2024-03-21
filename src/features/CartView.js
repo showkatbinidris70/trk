@@ -129,6 +129,12 @@ export default function CartView() {
                                   <TbCurrencyTaka
                                     style={{ marginRight: "-0.3rem" }}
                                   />{" "}
+                                  {carts.find(
+                                    (cart_data) => cart_data?.id === data?.id
+                                  )?.offerPrice *
+                                    carts.find(
+                                      (cart_data) => cart_data?.id === data?.id
+                                    )?.qnty}
                                 </div>
                                 <div className="d-flex justify-content-center py-1">
                                   <div className="d-flex justify-content-between w-100 rounded align-items-center">
